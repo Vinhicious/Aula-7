@@ -1,1 +1,22 @@
+public class Moto extends Veiculo{
+    private Boolean temCarenagem;
+    
+    public Moto(String marca, String modelo, Integer ano, Boolean temCarenagem){
+        super(marca, modelo, ano);
+        this.temCarenagem = temCarenagem;
+    }
+    
+    public Boolean getTemCarenagem(){
+        return temCarenagem;
+    }
+    
+    public void Moto(){
+        super.Exibirinformações();
+        System.out.println("Carenagem: " + (temCarenagem ? "Sim" : "Não"));
+    }
+    
+    public void Empinar(){
+        System.out.println("Enpinando...");
+    }
+}
 
