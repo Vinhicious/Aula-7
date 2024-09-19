@@ -1,1 +1,33 @@
+class Veiculo {
+    private String marca;
+    private String modelo;
+    private Integer ano;
+    
+    public Veiculo(String marca, String modelo, Integer ano){
+        this.marca = marca;
+        this.ano = ano;
+        this.modelo = modelo;
+    }
+    
+    public String getMarca(){
+        return marca;
+    }
+    
+    public String getModelo(){
+        return modelo;
+    }
+    
+    public Integer getAno(){
+        return ano;
+    }
+    
+    public void Exibirinformações(){
+        System.out.println("Marca: " + marca + ", Modelo: " + modelo + "Ano: " + ano);
+    }
+    
+    public void Acelerar(){
+        System.out.println("O veiculo está acelerando ...");
+    }
+    
+}
 
