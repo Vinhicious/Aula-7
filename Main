@@ -6,6 +6,8 @@ public class Main {
         
         moto.Moto();
         carro.Carro();
+        moto.Empinar();
+        carro.Acelerar();
     }
 }
 
